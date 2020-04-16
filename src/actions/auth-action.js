@@ -1,3 +1,6 @@
+// Enable fetch() function to work on Safari browser
+import 'whatwg-fetch';
+
 import {
   USER_LOADED,
   AUTH_ERROR,

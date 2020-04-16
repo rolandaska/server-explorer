@@ -1,4 +1,5 @@
-
+// Enable fetch() function to work on Safari browser
+import 'whatwg-fetch';
 
 import { GET_SERVERS_LIST_SUCCESS, GET_SERVERS_LIST_FAILURE } from './types';
 
