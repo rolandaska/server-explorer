@@ -80,7 +80,4 @@ const mapStateToProps = state => ({
   error: state.auth.error,
 });
 
-export default connect(
-  mapStateToProps,
-  { login }
-)(Login);
+export default connect(mapStateToProps, { login })(Login);
